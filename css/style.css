@@ -29,15 +29,17 @@ body{
 	align-items: center;
 	flex-direction: column;
 	height: 100%;
+	transition: 0.4s;
+}
+
+.test__item:first-child{
+	display: flex;
 }
 
 .test__img{
-	width: 200px;
-	height: 200px;
+	width: 100%;
 	background-color: #c23232af;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	transition: 0.4s;
 }
 
 .test__title{
